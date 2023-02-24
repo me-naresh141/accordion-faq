@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#root {
+  background: linear-gradient(
+    to right,
+    rgb(140, 126, 134),
+    rgb(110, 122, 131),
+    rgb(230, 234, 238)
+  );
+  width: 100vw;
+  border: 2px solid;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+h1 {
+  font-size: 3rem;
+  color: rgb(225, 229, 234);
+}
+ul {
+  width: 50%;
+  border: 2px dashed rgb(102, 103, 104);
+  border-top: none;
+  margin: 2rem auto;
+}
+li {
+  border: 2px dashed rgb(102, 103, 104);
+  cursor: pointer;
+  list-style: none;
+  padding: 1rem;
+}
+
+.question {
+  font-size: 2rem;
+}
+
+.answer {
+  font-size: 1.4rem;
+  color: rgba(225, 229, 234, 0.391);
+}
